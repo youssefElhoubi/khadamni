@@ -1,0 +1,49 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="5xwBxUYNW36-XZgMgMiA">
+    <mxGraphModel dx="1763" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="myy_FAdvXOLT4XyvwShz-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="user" vertex="1">
+          <mxGeometry height="150" width="180" x="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-3" parent="myy_FAdvXOLT4XyvwShz-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id : UUID&lt;div&gt;- name : String&lt;/div&gt;&lt;div&gt;- email : String&lt;/div&gt;&lt;div&gt;- password : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- isBand: boolean&lt;/div&gt;&lt;div&gt;- Role : role&lt;/div&gt;&lt;div&gt;- image: string&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-8" edge="1" parent="1" source="myy_FAdvXOLT4XyvwShz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="myy_FAdvXOLT4XyvwShz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-6" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="role" vertex="1">
+          <mxGeometry height="80" width="90" x="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-7" parent="myy_FAdvXOLT4XyvwShz-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;recruter&lt;/div&gt;&lt;div&gt;admin&lt;/div&gt;&lt;div&gt;user&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="90" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-11" edge="1" parent="1" source="myy_FAdvXOLT4XyvwShz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="myy_FAdvXOLT4XyvwShz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="recruter" vertex="1">
+          <mxGeometry height="150" width="180" x="50" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-10" parent="myy_FAdvXOLT4XyvwShz-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- company :company&lt;br&gt;&lt;div&gt;- companyRole: string&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-14" edge="1" parent="1" source="myy_FAdvXOLT4XyvwShz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="myy_FAdvXOLT4XyvwShz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="user" vertex="1">
+          <mxGeometry height="150" width="180" x="400" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-13" parent="myy_FAdvXOLT4XyvwShz-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- job:String&amp;nbsp;&lt;div&gt;- domain: String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- skill: List&amp;lt;Skill&amp;gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="compay" vertex="1">
+          <mxGeometry height="160" width="190" x="-230" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="myy_FAdvXOLT4XyvwShz-16" parent="myy_FAdvXOLT4XyvwShz-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- id :&amp;nbsp; UUID&lt;/div&gt;&lt;div&gt;- name : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- location : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- long: Long&lt;/div&gt;&lt;div&gt;- lat : Long&amp;nbsp;&lt;/div&gt;&lt;div&gt;- description : String&lt;br&gt;- capital: Number&lt;/div&gt;&lt;div&gt;- creattionDate : localDateTime&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134" width="190" y="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
